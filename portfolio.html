@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanshika's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <button onclick="toggleDarkMode()" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero fade-in">
+      <h1>Vanshika Dubey</h1>
+      <div class="typing-text"></div>
+    </section>
+
+    <section class="about fade-in">
+      <p>I have hands-on experience with HTML, CSS, and SQL, and I'm currently expanding my knowledge in JavaScript and Machine Learning. My core strength lies in Data Structures and Algorithms, and I enjoy tackling coding challenges that sharpen my logical thinking.</p>
+      <p>I'm actively working on personal projects to apply what I learn and improve my technical foundation. As a self-motivated learner, I believe in building consistent habits, writing clean code, and growing through real-world experience.</p>
+    </section>
+
+    <section class="background-section fade-in">
+      <div class="container">
+        <h2>AI/ML Engineering Background</h2>
+        <p>As an aspiring AI/ML Engineer, I focus on developing intelligent solutions using machine learning and data analysis. My journey combines theoretical knowledge with practical implementation through various projects and continuous learning.</p>
+        
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="skill-title">Machine Learning</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+            <div class="tools-list">
+              <span class="tool-tag">Scikit-learn</span>
+              <span class="tool-tag">TensorFlow</span>
+              <span class="tool-tag">Pandas</span>
+              <span class="tool-tag">NumPy</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="skill-title">Data Analysis</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+            <div class="tools-list">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">SQL</span>
+              <span class="tool-tag">Matplotlib</span>
+              <span class="tool-tag">Seaborn</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <h3 class="skill-title">Deep Learning</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+            <div class="tools-list">
+              <span class="tool-tag">Neural Networks</span>
+              <span class="tool-tag">Keras</span>
+              <span class="tool-tag">PyTorch</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievements">
+          <h3>Key Achievements</h3>
+          <ul>
+            <li>Successfully developed a student depression prediction model using machine learning algorithms</li>
+            <li>Created an international education cost prediction system with high accuracy</li>
+            <li>Implemented various ML models for real-world problem-solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects fade-in">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Chatbox Backend</h3>
+          <p>A Flask-based chatbot backend with rule-based responses. Built with Python and Flask, featuring RESTful API endpoints and deployed on Vercel.</p>
+          <div class="tools-list">
+            <span class="tool-tag">Python</span>
+            <span class="tool-tag">Flask</span>
+            <span class="tool-tag">REST API</span>
+            <span class="tool-tag">Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/VanshikaDubey1/CHATBOX-BACKEND" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a href="https://chatbox-backend-wine.vercel.app" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>Student Management System</h3>
+          <p>SQL-based system using SQL Workbench.</p>
+          <div class="project-links">
+            <a href="https://github.com/VanshikaDubey1/student-management-system" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>Student Depression Prediction</h3>
+          <p>ML project to detect signs of student depression.</p>
+          <div class="project-links">
+            <a href="https://github.com/VanshikaDubey1/Student-depression-prediction-project" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>International Education Prediction</h3>
+          <p>Predicts international education cost using ML.</p>
+          <div class="project-links">
+            <a href="https://github.com/VanshikaDubey1/international-education-prediction-model" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact fade-in">
+      <h2>Contact</h2>
+      <div class="social-links">
+        <a href="mailto:vanshikadubeyoffice8888@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/VanshikaDubey1" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>&copy; <span class="year"></span> Vanshika Dubey. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
