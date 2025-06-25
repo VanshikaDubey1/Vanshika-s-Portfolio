@@ -29,29 +29,7 @@ body {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-
-.project-info {
-  flex: 1;
-  min-width: 250px;
-}
-
-.project-image-wrapper {
-  flex-shrink: 0;
-  width: 160px;
-}
-
-.project-thumb {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  display: block;
-}
-
-
-}
-
-  
-  section {
+ section {
     padding: 2rem;
   }
   
