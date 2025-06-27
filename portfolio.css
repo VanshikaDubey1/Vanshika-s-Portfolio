@@ -21,6 +21,19 @@ body {
   flex-wrap: wrap; /* Responsive wrap on small screens */
 }
 
+.dark-mode .skills-section {
+  background-color: #2b2b3d;
+}
+
+.dark-mode .skill-tag {
+  background-color: #4a4a67;
+  color: #fff;
+}
+
+.dark-mode .skill-tag:hover {
+  background-color: #6a6a8f;
+}
+
 
 .skills-section {
   padding: 2rem;
