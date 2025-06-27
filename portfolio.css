@@ -21,6 +21,47 @@ body {
   flex-wrap: wrap; /* Responsive wrap on small screens */
 }
 
+
+.skills-section {
+  padding: 2rem;
+  background-color: #ffe0e9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills-section h2 {
+  color: #d63384;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background-color: #ffd6e8;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.skill-tag:hover {
+  transform: scale(1.05);
+  background-color: #ffc2d1;
+}
+
+
 .horizontal-layout {
   display: flex;
   justify-content: space-between;
