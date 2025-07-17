@@ -2,16 +2,18 @@ body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fceef1;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
   }
   
   header {
-    background-color: #ff99c8;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 2rem;
     text-align: center;
+    border-bottom: 1px solid #333333;
   }
+
 .horizontal-layout {
   display: flex;
   flex-direction: row;
@@ -22,30 +24,30 @@ body {
 }
 
 .dark-mode .skills-section {
-  background-color: #2b2b3d;
+  background-color: #111111;
 }
 
 .dark-mode .skill-tag {
-  background-color: #4a4a67;
-  color: #fff;
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .dark-mode .skill-tag:hover {
-  background-color: #6a6a8f;
+  background-color: #555555;
 }
-
 
 .skills-section {
   padding: 2rem;
-  background-color: #ffe0e9;
+  background-color: #111111;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(255,255,255,0.1);
   margin-top: 2rem;
   margin-bottom: 2rem;
+  border: 1px solid #333333;
 }
 
 .skills-section h2 {
-  color: #d63384;
+  color: #ffffff;
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -59,21 +61,21 @@ body {
 }
 
 .skill-tag {
-  background-color: #ffd6e8;
+  background-color: #333333;
   padding: 10px 18px;
   border-radius: 20px;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #333;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(255,255,255,0.1);
   transition: transform 0.2s ease, background-color 0.2s ease;
+  border: 1px solid #555555;
 }
 
 .skill-tag:hover {
   transform: scale(1.05);
-  background-color: #ffc2d1;
+  background-color: #555555;
 }
-
 
 .horizontal-layout {
   display: flex;
@@ -83,7 +85,8 @@ body {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
- section {
+
+section {
     padding: 2rem;
   }
   
@@ -93,23 +96,29 @@ body {
   }
   
   .skills li {
-    background: #ffe0e9;
+    background: #333333;
     margin: 5px 0;
     padding: 8px;
     border-radius: 8px;
     width: fit-content;
+    color: #ffffff;
+    border: 1px solid #555555;
   }
   
   a {
-    color: #d63384;
+    color: #ffffff;
     text-decoration: none;
   }
   
+  a:hover {
+    color: #cccccc;
+  }
+  
   footer {
-    background-color: #ffc2d1;
+    background-color: #111111;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    border-top: 1px solid #333333;
+    color: #ffffff;
   }
-
-  
