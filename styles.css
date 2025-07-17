@@ -1,13 +1,13 @@
-/* Modern styling for portfolio */
+/* Modern styling for portfolio - Black and White Theme */
 :root {
-  --primary-color: #6366f1;
-  --secondary-color: #4f46e5;
-  --text-color: #f8fafc;
-  --bg-color: #0f172a;
-  --card-bg: #1e293b;
-  --heading-color: #8b5cf6;
-  --subheading-color: #6366f1;
-  --hover-color: #818cf8;
+  --primary-color: #ffffff;
+  --secondary-color: #cccccc;
+  --text-color: #ffffff;
+  --bg-color: #000000;
+  --card-bg: #111111;
+  --heading-color: #ffffff;
+  --subheading-color: #cccccc;
+  --hover-color: #888888;
 }
 
 body {
@@ -28,14 +28,14 @@ body {
 header {
   background: var(--card-bg);
   padding: 2rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(to bottom, rgba(99, 102, 241, 0.1), transparent);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), transparent);
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.1);
 }
 
 h2 {
@@ -72,8 +72,9 @@ h2::after {
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-  background: rgba(99, 102, 241, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .projects-grid {
@@ -87,14 +88,14 @@ h2::after {
   background: var(--card-bg);
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .project:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
   border-color: var(--primary-color);
 }
 
@@ -107,25 +108,28 @@ h2::after {
 .project a {
   display: inline-block;
   background: var(--primary-color);
-  color: white;
+  color: #000000;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
   margin-top: 1rem;
   transition: all 0.3s ease;
+  border: 1px solid var(--primary-color);
 }
 
 .project a:hover {
   background: var(--hover-color);
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
 .contact {
   text-align: center;
   padding: 3rem 0;
-  background: rgba(99, 102, 241, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   margin: 2rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .social-links {
@@ -141,12 +145,13 @@ h2::after {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   transition: all 0.3s ease;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   margin: 0 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .social-links a:hover {
-  color: var(--text-color);
+  color: #000000;
   background: var(--primary-color);
 }
 
@@ -167,8 +172,8 @@ h2::after {
   padding: 3rem 0;
   margin: 2rem 0;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .skills-grid {
@@ -179,12 +184,12 @@ h2::after {
 }
 
 .skill-card {
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .skill-card:hover {
@@ -208,7 +213,7 @@ h2::after {
 .progress-bar {
   width: 100%;
   height: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   margin: 1rem 0;
   overflow: hidden;
@@ -216,7 +221,7 @@ h2::after {
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(to right, var(--primary-color), var(--heading-color));
+  background: linear-gradient(to right, var(--primary-color), var(--subheading-color));
   border-radius: 4px;
   transition: width 1s ease;
 }
@@ -230,20 +235,21 @@ h2::after {
 }
 
 .tool-tag {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   color: var(--text-color);
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .achievements {
   margin-top: 3rem;
   text-align: left;
   padding: 2rem;
-  background: rgba(99, 102, 241, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .achievements h3 {
@@ -283,17 +289,17 @@ h2::after {
 }
 
 .project .tool-tag {
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--text-color);
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
   font-size: 0.85rem;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
 
 .project .tool-tag:hover {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-color: var(--primary-color);
 }
 
@@ -315,4 +321,4 @@ h2::after {
 
 .project-links a i {
   font-size: 1.1rem;
-} 
+}
